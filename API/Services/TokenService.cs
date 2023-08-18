@@ -6,7 +6,6 @@ using API.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 
 namespace API.Service;
-
 public class TokenService : ITokenService
 {
 

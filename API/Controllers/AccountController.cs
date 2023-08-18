@@ -54,7 +54,7 @@ public class AccountController : BaseApiController
         {
             if (computedHah[i] != user.PasswordHash[i])
             {
-                return Unauthorized();
+                return Unauthorized("Invalid Password");
             }
         }
         return new UserDto
